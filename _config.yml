@@ -1,0 +1,42 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+---
+title: flam-flam
+email: m.lisogorskyi@gmail.com
+description: >-
+  Set of small microservices with observability
+
+domain: flam-flam.github.io
+url: https://flam-flam.github.io
+# baseurl: /REPOSITORY-NAME/      # place folder name if the site is served in a subfolder
+
+# twitter_username:
+github_username: flam-flam
+
+# theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
+color_scheme: flam-flam
+
+# plugins:
+#   - jekyll-feed
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md # this is only for the repo
+
+aux_links:
+  "Github":
+    - "//github.com/flam-flam"
