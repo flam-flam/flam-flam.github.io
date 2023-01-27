@@ -6,7 +6,7 @@ Backend for https://flam-flam.github.io
 
 ## Local dev
 
-Start a local dev server by running `make serve`.
+Start a local dev server by running `make serve`
 
 ## Docs
 
