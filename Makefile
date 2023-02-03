@@ -2,7 +2,7 @@
 
 .PHONY: serve
 serve: ## serve the website locally
-	@bundle exec jekyll serve --livereload
+	@bundle exec jekyll serve --livereload --host 0.0.0.0
 
 .PHONY: help
 help: ## Display this help
