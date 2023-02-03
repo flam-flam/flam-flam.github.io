@@ -1,9 +1,8 @@
 ---
 layout: page
 title: High level diagram
-permalink: /development/hld
-parent: _development
-nav_order: 1
+permalink: /hld
+nav_order: 2
 ---
 
 There are currently 3 stages defined for the project.
