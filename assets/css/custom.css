@@ -19,6 +19,13 @@
       box-shadow: 0 0 0 1px #e991d9;
     }
 
+    ul.contact li {
+      text-decoration: none;
+      border-top: none;
+      margin: 0em 0 0 0;
+      padding: 1.8em 0 0 3em;
+      position: relative;
+    }
         ul.contact li:before {
           color: #e991d9;
         }
@@ -57,3 +64,7 @@
         #menu ul a.opener:hover:before, #menu ul span.opener:hover:before {
           color: #e991d9;
         }
+
+
+			#sidebar > .inner > * {
+				border-bottom: none;
