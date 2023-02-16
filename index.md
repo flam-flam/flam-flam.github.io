@@ -3,95 +3,79 @@ layout: default
 ---
 
 <!-- Section -->
-<section>
+<section id="homepage-melt">
 	<header class="major">
-		<h2>Erat lacinia</h2>
+		<h2>What is MELT?</h2>
 	</header>
-	<div class="features">
+	<div class="posts">
 		<article>
-			<span class="icon fa-diamond"></span>
-			<div class="content">
-				<h3>Portitor ullamcorper</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			</div>
+			<a href="#" class="image"><img src="../assets/images/pic01.jpg" alt="" /></a>
+			<h3>Metrics</h3>
+			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
 		</article>
 		<article>
-			<span class="icon fa-paper-plane"></span>
-			<div class="content">
-				<h3>Sapien veroeros</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			</div>
+			<a href="#" class="image"><img src="../assets/images/pic02.jpg" alt="" /></a>
+			<h3>Events</h3>
+			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
 		</article>
 		<article>
-			<span class="icon fa-rocket"></span>
-			<div class="content">
-				<h3>Quam lorem ipsum</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			</div>
+			<a href="#" class="image"><img src="../assets/images/pic03.jpg" alt="" /></a>
+			<h3>Logs</h3>
+			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
 		</article>
 		<article>
-			<span class="icon fa-signal"></span>
-			<div class="content">
-				<h3>Sed magna finibus</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			</div>
+			<a href="#" class="image"><img src="../assets/images/pic04.jpg" alt="" /></a>
+			<h3>Traces</h3>
+			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
 		</article>
 	</div>
 </section>
 
 <!-- Section -->
-<section>
+<section id="homepage-services">
 	<header class="major">
-		<h2>Ipsum sed dolor</h2>
+		<h2>Services</h2>
 	</header>
-	<div class="posts">
+	<div class="features">
 		<article>
-			<a href="#" class="image"><img src="assets/images/pic01.jpg" alt="" /></a>
-			<h3>Interdum aenean</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
+			<span class="icon fa-reddit-alien"></span>
+			<div class="content">
+				<h3>Reddit dispatcher</h3>
+				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			</div>
 		</article>
 		<article>
-			<a href="#" class="image"><img src="assets/images/pic02.jpg" alt="" /></a>
-			<h3>Nulla amet dolore</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
+			<span class="icon fa-comment"></span>
+			<div class="content">
+				<h3>Submission service</h3>
+				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			</div>
 		</article>
 		<article>
-			<a href="#" class="image"><img src="assets/images/pic03.jpg" alt="" /></a>
-			<h3>Tempus ullamcorper</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
+			<span class="icon fa-comments-o"></span>
+			<div class="content">
+				<h3>Comment service</h3>
+				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			</div>
 		</article>
 		<article>
-			<a href="#" class="image"><img src="assets/images/pic04.jpg" alt="" /></a>
-			<h3>Sed etiam facilis</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
-		</article>
-		<article>
-			<a href="#" class="image"><img src="assets/images/pic05.jpg" alt="" /></a>
-			<h3>Feugiat lorem aenean</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
-		</article>
-		<article>
-			<a href="#" class="image"><img src="assets/images/pic06.jpg" alt="" /></a>
-			<h3>Amet varius aliquam</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
+			<span class="icon fa-database"></span>
+			<div class="content">
+				<h3>MongoDB</h3>
+				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			</div>
 		</article>
 	</div>
 </section>

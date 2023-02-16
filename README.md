@@ -16,5 +16,8 @@ https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/crea
 Jekyll docs:
 https://jekyllrb.com/docs/usage/
 
-Just-the-docs theme:
-https://pmarsceill.github.io/just-the-docs/
+Editorial theme:
+https://github.com/andrewbanchich/editorial-jekyll-theme
+
+Icon set:
+https://fontawesome.com/v4/icons/
