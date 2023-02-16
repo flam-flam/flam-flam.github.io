@@ -1,42 +1,29 @@
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+title: Editorial
+subtitle: by HTML5 UP
+email: youremailaddress@gmail.com
+description: A FREE AND FULLY RESPONSIVE SITE TEMPLATE
+baseurl: /
+url: "" # the base hostname & protocol for your site
+author:
+street_address: 1234 Somewhere Road
+city: Nashville
+state: TN
+zip_code: 55555
+country: United States of America
+phone: (716) 555-5555
 
----
-title: flam-flam
-email: m.lisogorskyi@gmail.com
-description: >-
-  Set of small microservices with observability
+# Social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url: https://gitlab.com/u/andrewbanchich
+googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+instagram_url: https://instagram.com
+linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/andrewbanchich
 
-domain: flam-flam.github.io
-url: https://flam-flam.github.io
-# baseurl: /REPOSITORY-NAME/      # place folder name if the site is served in a subfolder
-
-# twitter_username:
-github_username: flam-flam
-
-# theme: just-the-docs
-remote_theme: pmarsceill/just-the-docs
-color_scheme: flam-flam
-
-# plugins:
-#   - jekyll-feed
-
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - README.md # this is only for the repo
-
-aux_links:
-  "Github":
-    - "//github.com/flam-flam"
+# Build settings
+markdown: kramdown
