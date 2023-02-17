@@ -2,6 +2,31 @@
 layout: default
 ---
 
+<!-- Banner -->
+  <section id="banner">
+    <div class="content">
+      <header>
+        <h1>Flamboyance of Flamingos</h1>
+        <p>A set of fully observable microservices (WIP)</p>
+      </header>
+      <p>
+        This is a pet project aimed to implement microservices with
+        best (effort) practice observability.
+        Four pillars of observability are to be implemented into the services,
+        providing an open source demo implementation of metrics, events, logs,
+        and traces into python, dotnet, and nodejs apps that run on k8s.
+        Developed by a few enthusiasts in their spare time and
+        is very much a work in progress for now.
+      </p>
+      <ul class="actions">
+        <li><a href="#homepage-melt" class="button">What is MELT?</a></li>
+        <li><a href="#homepage-services" class="button">Services</a></li>
+        <li><a href="https://github.com/flam-flam" class="button special">source
+        </a></li>
+      </ul>
+    </div>
+  </section>
+
 <!-- Section -->
 <section id="homepage-melt">
 	<header class="major">
