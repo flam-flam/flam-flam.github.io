@@ -6,6 +6,13 @@ Backend for https://flam-flam.github.io
 
 ## Local dev
 
+The documentation site uses Jekyll
+### Pre
+
+Install Chruby and Jekyll
+https://jekyllrb.com/docs/installation/
+
+### Launch local dev server
 Start a local dev server by running `make serve`
 
 ## Docs
