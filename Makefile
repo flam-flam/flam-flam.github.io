@@ -1,8 +1,8 @@
 .DEFAULT_GOAL := help
 
 .PHONY: serve
-serve: ## serve the website locally
-	@bundle exec jekyll serve --livereload --host 0.0.0.0
+serve: ## Launch Jekyll
+	@jekyll serve  --livereload --host 0.0.0.0
 
 .PHONY: help
 help: ## Display this help
