@@ -55,6 +55,7 @@
 
   #header {
     border-bottom: solid 5px #e991d9;
+		padding: 2em 0 1em 0;
   }
 
       #menu ul a:hover, #menu ul span:hover {
@@ -68,4 +69,20 @@
 
 			#sidebar > .inner > * {
 				border-bottom: none;
+      }
+
+
+      @media screen and (max-width: 1680px) {
+
+        #header {
+          padding: 2em 0 1em 0;
+        }
+  
+      }
+  
+      @media screen and (max-width: 736px) {
+  
+        #header {
+          padding: 2em 0 1em 0;
+        }  
       }
