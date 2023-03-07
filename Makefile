@@ -1,8 +1,12 @@
 .DEFAULT_GOAL := help
 
 .PHONY: serve
-serve: ## Launch Jekyll
-	@jekyll serve
+serve: install ## Launch Jekyll
+	@bundle exec jekyll serve  --livereload --host 0.0.0.0
+
+.PHONY: install
+install: ## Install gems
+	@bundle install
 
 .PHONY: help
 help: ## Display this help
