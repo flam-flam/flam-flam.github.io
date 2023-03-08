@@ -1,7 +1,7 @@
 ---
 layout: page
 title: _kitchen_sink
-permalink: /_kitchen_sink
+permalink: /kitchen-sink
 ---
 
 <h2 id="content">Sample Content</h2>

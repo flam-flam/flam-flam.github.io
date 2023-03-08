@@ -14,7 +14,8 @@ to the two corresponding services that simply save them to a database.
 
 All services can be run locally in docker.
 
-![HLD](../assets/images/HLD-1.svg "Phase 1 HLD")
+<img style="max-width: 500px" src="../assets/images/HLD-1.svg" alt="" />
+
 
 ## Phase 2
 
@@ -24,7 +25,8 @@ to a free Grafana Cloud account.
 
 There is a helm chart to run the services and OTel in k8s.
 
-![HLD](../assets/images/HLD-2.svg "Phase 2 HLD")
+<img style="max-width: 700px" src="../assets/images/HLD-2.svg" alt="" />
+
 
 ## Phase 3
 
@@ -34,4 +36,4 @@ the local stack instead of the cloud.
 
 Everything can be installed in a k8s cluster using a single helm chart.
 
-![HLD](../assets/images/HLD-3.svg "Phase 3 HLD")
+<img style="max-width: 900px" src="../assets/images/HLD-3.svg" alt="" />
