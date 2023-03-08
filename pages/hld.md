@@ -6,7 +6,9 @@ permalink: /hld
 
 There are currently 3 phases defined for the project.
 
-## Phase 1 <- We are here
+## Phase 1
+
+<span style="color: #e991d9"> (we are here) </span>
 
 Working microservices without observability.
 Dispatcher is streaming live comments and submissions from Reddit
