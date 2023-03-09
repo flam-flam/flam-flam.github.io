@@ -28,11 +28,12 @@ layout: default
   </section>
   
 
+<!-- Section -->
 <section>
 	<header class="major">
 		<h2>Why?</h2>
 	</header>
-	Because we can.
+	The project is supposed to serve as a fully contained easily deployable demo of microservice observability. Want to see how it works on the dashboards? Sure. Want to rip some example code out to use in your project? You got it! The possibilities are limited.
 </section>
 
 
@@ -41,6 +42,9 @@ layout: default
 	<header class="major">
 		<h2>What is MELT?</h2>
 	</header>
+	<p>
+		MELT stands for Metrics, Events, Logs, and Traces, which are the 4 pillars of Observability.
+	</p>
 	<div class="features">
 		<article>
 			<span class="icon fa-line-chart"></span>
@@ -78,33 +82,36 @@ layout: default
 	<header class="major">
 		<h2>Services</h2>
 	</header>
+	<p>
+		The microservices in this project are small and simple
+	</p>
 	<div class="features">
 		<article>
 			<span class="icon fa-reddit-alien"></span>
 			<div class="content">
 				<h3>Reddit dispatcher</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+				<p>Stream submissions and comments from Reddit and forward the json objects to an endpoint. Written in Python.</p>
 			</div>
 		</article>
 		<article>
 			<span class="icon fa-comment"></span>
 			<div class="content">
 				<h3>Submission service</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+				<p>Listen for json submission objects from the dispatcher service and save them to a database. Written in C#.</p>
 			</div>
 		</article>
 		<article>
 			<span class="icon fa-comments-o"></span>
 			<div class="content">
 				<h3>Comment service</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+				<p>Listen for json comment objects from the dispatcher service and save them to a database. Written in NodeJS.</p>
 			</div>
 		</article>
 		<article>
 			<span class="icon fa-database"></span>
 			<div class="content">
 				<h3>MongoDB</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+				<p>A database to store the data. Submission and comment services connect to it.</p>
 			</div>
 		</article>
 	</div>
