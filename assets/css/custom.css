@@ -2,10 +2,17 @@
     color: #e991d9;
   }
 
-  a:hover {
-    border-bottom-color: #e991d9;
-    color: #e991d9 !important;
+  a.button:not(.special):hover {
+    color: #f1a4e3 !important;
+    background-color: #fff7fe;
   }
+
+  a.button.special:hover {
+    border-bottom-color: #f1a4e3;
+    color: white;
+    background-color: #f1a4e3 !important;
+  }
+
 
   header.major > :last-child {
     border-bottom: solid 3px #e991d9;

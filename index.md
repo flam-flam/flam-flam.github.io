@@ -28,6 +28,7 @@ layout: default
   </section>
   
 
+<!-- Section -->
 <section>
 	<header class="major">
 		<h2>Why?</h2>
