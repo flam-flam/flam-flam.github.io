@@ -34,9 +34,9 @@ permalink: /services/submission
         <div class="content">
             <h3>Usage</h3>
             <p><a href="http://localhost:5000/swagger/index.html">Swagger</a></p>
-            <pre><code>curl -X GET http://localhost:80/api/submissions/{id}</code></pre>
+            <pre><code>curl -X GET http://localhost/api/submissions/{id}</code></pre>
             <pre><code>curl -X POST \
-http://localhost:80/api/submissions \
+http://localhost/api/submissions \
 -H 'Content-Type: application/json' \
 -d '{"id":"1a", \
 "created_utc":"2023-03-10T16:27:59.709Z"}'</code></pre>
