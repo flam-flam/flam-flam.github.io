@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Comment Service
+title: Comment service
 permalink: /services/comment
 ---
 
