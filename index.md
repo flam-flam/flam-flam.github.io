@@ -19,9 +19,7 @@ layout: default
         is very much a work in progress for now.
       </p>
       <ul class="actions">
-        <!-- <li><a href="#homepage-melt" class="button">What is MELT?</a></li>
-        <li><a href="#homepage-services" class="button">Services</a></li> -->
-        <li><a href="https://github.com/flam-flam" class="button special">github
+        <li><a href="https://github.com/flam-flam" class="button special">github <i class="fa fa-external-link"></i>
         </a></li>
       </ul>
     </div>
@@ -84,34 +82,34 @@ layout: default
 		<h2>Services</h2>
 	</header>
 	<p>
-		The microservices in this project are small and simple
+		The microservices in this project are small and simple.
 	</p>
 	<div class="features">
 		<article>
 			<span class="icon fa-reddit-alien"></span>
 			<div class="content">
-				<h3>Reddit dispatcher</h3>
+				<h3><a href="/services/dispatcher">Reddit dispatcher</a></h3>
 				<p>Stream submissions and comments from Reddit and forward the json objects to an endpoint. Written in Python.</p>
 			</div>
 		</article>
 		<article>
 			<span class="icon fa-comment"></span>
 			<div class="content">
-				<h3>Submission service</h3>
+				<h3><a href="/services/submission">Submission service</a></h3>
 				<p>Listen for json submission objects from the dispatcher service and save them to a database. Written in C#.</p>
 			</div>
 		</article>
 		<article>
 			<span class="icon fa-comments-o"></span>
 			<div class="content">
-				<h3>Comment service</h3>
+				<h3><a href="/services/comment">Comment service</a></h3>
 				<p>Listen for json comment objects from the dispatcher service and save them to a database. Written in NodeJS.</p>
 			</div>
 		</article>
 		<article>
 			<span class="icon fa-database"></span>
 			<div class="content">
-				<h3>MongoDB</h3>
+				<h3><a href="/services/database">MongoDB</a></h3>
 				<p>A database to store the data. Submission and comment services connect to it.</p>
 			</div>
 		</article>
