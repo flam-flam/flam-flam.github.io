@@ -4,38 +4,46 @@ title: High level diagram
 permalink: /hld
 ---
 
-There are currently 3 phases defined for the project.
 
-## Phase 1
 
-<span style="color: #e991d9"> (we are here) </span>
+All services can be run locally in docker or in a k8s cluster.
 
-Working microservices without observability.
 Dispatcher is streaming live comments and submissions from Reddit
 to the two corresponding services that simply save them to a database.
+The grafana stack can be spinned up locally and OpenTelemetry is
+sending logs, metrics and traces.
 
-All services can be run locally in docker.
+<pre class="mermaid">
+    graph TD
 
-<img style="max-width: 500px" src="../assets/images/HLD-1.svg" alt="" />
+    subgraph services-namespace[services namespace]
+        dispatcher(dispatcher service) -->|comments| comment(comment-service)
+        dispatcher(dispatcher service) -->|submissions| submission(submission-service)
+        comment -->|comment| database(MongoDB)
+        submission -->|submissions| database(MongoDB)
+    end
 
+    subgraph agent-namespace[agent namespace]
+        otel[opentelemetry]
+    end
 
-## Phase 2
+    subgraph grafana-namespace[grafana namespace]
 
-Added metrics and tracing in the microservices,
-using OpenTelemetry to send logs, metrics and traces
-to a free Grafana Cloud account.
+        otel ----> |metrics| prom[Prometheus]
+        otel ----> |logs| loki[Loki]
+        otel ----> |traces| tempo[Tempo]
 
-There is a helm chart to run the services and OTel in k8s.
+    end
 
-<img style="max-width: 700px" src="../assets/images/HLD-2.svg" alt="" />
+    services-namespace -->|MELT| otel
 
+    reddit[Reddit API] .-> dispatcher
 
-## Phase 3
+    classDef k8s-object fill:#326ce5,stroke:#fff,stroke-width:4px,color:#fff;
+    classDef cluster fill:#fff,stroke:#bbb,stroke-width:2px,color:#326ce5;
+    classDef edgeLabel background-color:#fff,font-size:9pt;
 
-The grafana stack can be spinned up locally and contains
-an anonymously accessible dashboard. The MELT data is only sent to
-the local stack instead of the cloud.
+    class dispatcher,comment,submission,database,otel,tempo,loki,prom,grafana-admin,grafana-anonymous,ingress k8s-object;
+    class reddit,user cluster;
 
-Everything can be installed in a k8s cluster using a single helm chart.
-
-<img style="max-width: 900px" src="../assets/images/HLD-3.svg" alt="" />
+</pre>
