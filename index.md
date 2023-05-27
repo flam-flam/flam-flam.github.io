@@ -19,9 +19,7 @@ layout: default
         is very much a work in progress for now.
       </p>
       <ul class="actions">
-        <li><a href="#homepage-melt" class="button">What is MELT?</a></li>
-        <li><a href="#homepage-services" class="button">Services</a></li>
-        <li><a href="https://github.com/flam-flam" class="button special">source
+        <li><a href="https://github.com/flam-flam" class="button special">github <i class="fa fa-external-link"></i>
         </a></li>
       </ul>
     </div>
@@ -33,7 +31,7 @@ layout: default
 	<header class="major">
 		<h2>Why?</h2>
 	</header>
-	The project is supposed to serve as a fully contained easily deployable demo of microservice observability. Want to see how it works on the dashboards? Sure. Want to rip some example code out to use in your project? You got it! The possibilities are limited.
+	The project is supposed to serve as a fully contained easily deployable demo of microservice observability. Want to see how it works on the dashboards? Sure. Want to rip some example code out to use in your project? You got it! The possibilities are... fairly limited.
 </section>
 
 
@@ -44,34 +42,35 @@ layout: default
 	</header>
 	<p>
 		MELT stands for Metrics, Events, Logs, and Traces, which are the 4 pillars of Observability.
+		Some might tell you there are 3, but that is false, fight me. <a href="/melt">Read more</a>
 	</p>
 	<div class="features">
 		<article>
 			<span class="icon fa-line-chart"></span>
 			<div class="content">
 				<h3>Metrics</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+				<p>Time series of numeric aspect of a system or an application.</p>
 			</div>
 		</article>
 		<article>
 			<span class="icon fa-list"></span>
 			<div class="content">
 				<h3>Events</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+				<p>Discreet pieces of structured data that are emitted when something interesting happens.</p>
 			</div>
 		</article>
 		<article>
 			<span class="icon fa-file-text-o"></span>
 			<div class="content">
 				<h3>Logs</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+				<p>Pieces of readable text data that are normally used by software engineers.</p>
 			</div>
 		</article>
 		<article>
 			<span class="icon fa-link"></span>
 			<div class="content">
 				<h3>Traces</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+				<p>A hierarchical set of data that contains information about a path of a request as it follows a complex path through the whole system</p>
 			</div>
 		</article>
 	</div>
@@ -83,34 +82,34 @@ layout: default
 		<h2>Services</h2>
 	</header>
 	<p>
-		The microservices in this project are small and simple
+		The microservices in this project are small and simple.
 	</p>
 	<div class="features">
 		<article>
 			<span class="icon fa-reddit-alien"></span>
 			<div class="content">
-				<h3>Reddit dispatcher</h3>
+				<h3><a href="/services/dispatcher">Reddit dispatcher</a></h3>
 				<p>Stream submissions and comments from Reddit and forward the json objects to an endpoint. Written in Python.</p>
 			</div>
 		</article>
 		<article>
 			<span class="icon fa-comment"></span>
 			<div class="content">
-				<h3>Submission service</h3>
+				<h3><a href="/services/submission">Submission service</a></h3>
 				<p>Listen for json submission objects from the dispatcher service and save them to a database. Written in C#.</p>
 			</div>
 		</article>
 		<article>
 			<span class="icon fa-comments-o"></span>
 			<div class="content">
-				<h3>Comment service</h3>
+				<h3><a href="/services/comment">Comment service</a></h3>
 				<p>Listen for json comment objects from the dispatcher service and save them to a database. Written in NodeJS.</p>
 			</div>
 		</article>
 		<article>
 			<span class="icon fa-database"></span>
 			<div class="content">
-				<h3>MongoDB</h3>
+				<h3><a href="/services/database">MongoDB</a></h3>
 				<p>A database to store the data. Submission and comment services connect to it.</p>
 			</div>
 		</article>

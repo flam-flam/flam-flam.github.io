@@ -2,6 +2,11 @@
     color: #e991d9;
   }
 
+  a:hover {
+    border-bottom-color: #D760C0;
+    color: #D760C0 !important;
+  }
+
   a.button:not(.special):hover {
     color: #f1a4e3 !important;
     background-color: #fff7fe;
