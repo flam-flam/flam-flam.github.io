@@ -32,10 +32,13 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
-      
+
       - name: Fetch dispatcher service readme
-        run: |
-          curl https://raw.githubusercontent.com/flam-flam/dispatcher-service/main/README.md >> pages/services/dispatcher.md
+        run: curl https://raw.githubusercontent.com/flam-flam/dispatcher-service/main/README.md >> pages/services/dispatcher.md
+      - name: Fetch comment service readme
+        run: curl https://raw.githubusercontent.com/flam-flam/comment-service/main/README.md >> pages/services/comment.md
+      - name: Fetch submission service readme
+        run: curl https://raw.githubusercontent.com/flam-flam/submission-service/main/README.md >> pages/services/submission.md
 
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
