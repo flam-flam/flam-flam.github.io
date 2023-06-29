@@ -15,6 +15,12 @@ https://jekyllrb.com/docs/installation/
 ### Launch local dev server
 Start a local dev server by running `make serve`
 
+## Deployment
+
+The site is using custom (ish) workflow for deployments: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
+
+The build runs on every push, but deploy can only run on main.
+
 ## Docs
 
 Github Pages guide:
